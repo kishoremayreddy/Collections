@@ -1,6 +1,6 @@
 package com.kishore;
 
-public class Student implements Comparable<Student>{
+public class Student {
 
 	private String name;
 	private int id;
@@ -25,11 +25,6 @@ public class Student implements Comparable<Student>{
 public String toString() {
 	// TODO Auto-generated method stub
 	return id + " " + name;
-}
-@Override
-public int compareTo(Student that) {
-	// TODO Auto-generated method stub
-	return Integer.compare(that.id, this.id);
 }
 	
 	
